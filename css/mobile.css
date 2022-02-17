@@ -22,6 +22,7 @@
 /*-- Family Fonts --*/
     --playfair: 'Playfair Display', serif;
     --montserrat: 'Montserrat', sans-serif; 
+    --lobster: 'Lobster', cursive;
 /*-- Colors --*/ 
     --color-bg: #fafafa;
     --color-fg: #000000;
@@ -30,6 +31,7 @@
     --color-three: #4f4f4f;
     --color-four: #bdbdbd;
     --color-five: #828282;
+    --color-six: #ffffff;
 }
 
 html {
@@ -232,7 +234,7 @@ html {
 }
 
 .ingredients-list__item .checkmark:after {
-    left: 8.5px;
+    left: 7.5px;
     top: 3px;
     width: 5px;
     height: 10px;
@@ -249,4 +251,73 @@ html {
 
 .instructions .section-title {
     font-size: var(--instructions-title);
+    margin: 1em 0;
+}
+
+.recipe-instructions {
+    list-style-type: none;
+    counter-reset: section;
+}
+
+.recipe-instructions__item {
+    font-size: var(--instructions-list);
+    font-family: var(--montserrat);
+    font-weight: 400;
+    display: block;
+    position: relative;
+    padding-left: 60px;
+    padding-right: 0.9em;
+    margin-bottom: 1.4em;
+    line-height: 24px;
+}
+
+.recipe-instructions__item b{
+    font-weight: 700;
+}
+
+.step-number {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-one);
+    border-radius: 8px;
+    text-align: center;
+    font-family: var(--lobster);
+    font-size: var(--instructions-number);
+    font-weight: 400;
+    line-height: 34px;
+    color: var(--color-six);
+}
+
+.source {
+    color: var(--color-four);
+    font-size: var(--source);
+    font-family: var(--montserrat);
+    font-weight: 400;
+    font-style: italic;
+    margin: 1em;
+    margin-bottom: 100px;
+}
+
+.source a {
+    text-decoration: none;
+    color: var(--color-four);
+}
+
+.footer {
+    color: var(--color-five);
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: var(--footer);
+    margin: 1em;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.footer a {
+    color: var(--color-five);
+    text-decoration: none;
+    font-weight: 700;
 }
