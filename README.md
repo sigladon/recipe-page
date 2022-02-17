@@ -5,7 +5,7 @@
 
 <div style="text-align: center">
   <h3>
-    <a href="https://interior-consultant-sigladon.onrender.com/" target="_blank">
+    <a href="https://recipe-page-sigladon.onrender.com" target="_blank">
       Demo
     </a>
     <span> | </span>
@@ -27,38 +27,31 @@
 ## Overview
 
 <figure>
-<img style="border: 1px solid black; border-radius: 10px" src="https://imgur.com/FyAifAm.png" alt="desktop" width="850"/>
+<img style="border: 1px solid black; border-radius: 10px" src="https://imgur.com/kKCzsuD.gif" alt="desktop" width="850"/>
 <figcaption>Desktop view</figcaption>
 </figure>
 <figure>
-<img style="border: 1px solid black; border-radius: 10px" src="https://imgur.com/L0tot6d.jpg" alt="mobile" width="210"/>
+<img style="border: 1px solid black; border-radius: 10px" src="https://imgur.com/oNOztdn.gif" alt="mobile" width="210"/>
 <figcaption>Mobile view</figcaption>
 </figure>
-<figure>
-<img style="border: 1px solid black; border-radius: 10px" src="https://imgur.com/NVncVif.jpg" alt="mobile" width="210"/>
-<figcaption>Mobile menu view</figcaption>
-</figure>
 
 
-I completed the  challenge with HTML, CSS and JavaScript. This is the third challenge of DevChallenges I complete. It was a great challenge to do the menu, I had a hard time doing it but it was a good resultIt was a great challenge to do the menu, I had a hard time doing it but it was a good result.
-
+I completed the  challenge with HTML and CSS. This is the fourth challenge of DevChallenges I complete. This challenge seemed simpler to me, in addition to the fact that I think it is the one that has been best for me compared to the previous ones that I completed.  
 ### Built With
 
-I used [HTML](https://github.com/sigladon/interior-consultant/blob/master/index.html), [CSS](https://github.com/sigladon/interior-consultant/tree/master/css) and [JavaScript](https://github.com/sigladon/interior-consultant/blob/master/js/menu.js)
-
+I used [HTML](https://github.com/sigladon/recipe-page/blob/master/index.html) and [CSS](https://github.com/sigladon/recipe-page/tree/master/css)
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
-https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb
+This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories.
+
 - Responsive design
 
 - Mobile First
 
 - Images Optimization
 
-- Interactive Menu
 
 
 ## Acknowledgements
