@@ -148,6 +148,10 @@ html {
     font-weight: 700;
 }
 
+.ingredients {
+    margin: 3em 0 1em;
+}
+
 .ingredients .section-title {
     font-size: var(--ingredients-title);
 }
