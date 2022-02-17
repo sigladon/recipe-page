@@ -27,11 +27,11 @@
 ## Overview
 
 <figure>
-<img style="border: 1px solid black; border-radius: 10px" src="https://imgur.com/kKCzsuD.gif" alt="desktop" width="850"/>
+<img style="border: 1px solid black; border-radius: 10px" src="./assets/desktop-view.gif" alt="desktop" width="850"/>
 <figcaption>Desktop view</figcaption>
 </figure>
 <figure>
-<img style="border: 1px solid black; border-radius: 10px" src="https://imgur.com/oNOztdn.gif" alt="mobile" width="210"/>
+<img style="border: 1px solid black; border-radius: 10px" src="./assets/mobile-view.gif" alt="mobile" width="210"/>
 <figcaption>Mobile view</figcaption>
 </figure>
 
