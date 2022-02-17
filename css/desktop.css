@@ -1,0 +1,57 @@
+:root {
+/*-- Font Size --*/
+    --title: 4.8rem;
+    --description: 1.4rem;
+    --detail-title: 1rem;
+    --detail-account: 1.4rem;
+    --ingredients-title: 2.4rem;
+    --ingredients-subtitle-1: 1.8rem;
+    --ingredients-subtitle-2: 1.8rem;
+    --ingredients-list: 1.6rem;
+    --instructions-title: 2.4rem;
+    --instructions-number: 2.4rem;
+    --instructions-list: 1.6rem;
+    --source: 1.6rem;
+    --footer: 1.4rem;
+}
+
+.main {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.introduction, .photo, .directions, .instructions, .source {
+    margin: 1em 12em;
+}
+
+.introduction, .directions, .instructions {
+    margin-right: 40em;
+}
+
+.ingredients {
+    margin-top: 3em;
+}
+
+.directions {
+    position: relative;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -24em;
+    top: 2em;
+}
+
+.source {
+    margin: 1em auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    padding-bottom: 2em;
+}
